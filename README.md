@@ -97,6 +97,29 @@ streamlit run app.py
 
 The app will be available at `http://localhost:8501`
 
+## 🐳 Docker Setup
+
+### Prerequisites
+- [Docker](https://docs.docker.com/get-docker/) installed
+- [Docker Compose](https://docs.docker.com/compose/install/) (included with Docker Desktop)
+
+### Quick Start with Docker Compose
+
+1. **Configure environment variables:**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your API keys
+   ```
+
+2. **Build and run the container:**
+   ```bash
+   docker-compose up --build
+   ```
+
+3. **Access the application:**
+   Open `http://localhost:8501` in your browser
+
+
 ## 🧪 Running Tests
 
 ```bash
@@ -133,6 +156,10 @@ pytest tests/test_weather.py -v
 │   └── test_pipeline.py       # Pipeline tests
 ├── app.py                     # Streamlit application
 ├── pyproject.toml             # Dependencies
+├── requirements.txt           # Pip dependencies
+├── Dockerfile                 # Docker image definition
+├── docker-compose.yml         # Docker Compose configuration
+├── .dockerignore              # Docker build exclusions
 └── .env.example               # Environment template
 ```
 

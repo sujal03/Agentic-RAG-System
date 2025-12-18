@@ -37,7 +37,7 @@ class RouterAgent:
 
 Analyze the user's question and determine if it's asking about:
 1. **weather** - Questions about current weather, temperature, forecast, climate conditions for a location
-   Examples: "What's the weather in London?", "Is it raining in Tokyo?", "Temperature in Paris"
+   Examples: "What's the weather in Indore?", "Is it raining in Delhi?", "Temperature in Mumbai tomorrow"
 2. **pdf** - Questions about a document, asking to find information, summarize content, or answer from uploaded files
    Examples: "What does the document say about X?", "Summarize the PDF", "Find information about Y in the file"
 3. **unknown** - Questions that don't fit either category or are unclear

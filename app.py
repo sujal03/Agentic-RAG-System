@@ -21,7 +21,6 @@ st.set_page_config(
 st.markdown("""
 <style>
     .stApp {
-        max-width: 1200px;
         margin: 0 auto;
     }
     
@@ -130,9 +129,9 @@ def display_sidebar():
         st.header("💡 How to Use")
         st.markdown("""
         **Weather Queries:**
-        - "What's the weather in London?"
-        - "Is it raining in Tokyo?"
-        - "Temperature in New York"
+        - "What's the weather in Indore?"
+        - "Is it raining in Delhi?"
+        - "Temperature in Mumbai tomorrow"
         
         **Document Queries:**
         - Upload a PDF first
